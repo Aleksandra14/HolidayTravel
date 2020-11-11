@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="nav_prijava" type="id" />
+    <item name="nav_registracija" type="id" />
+    <item name="nav_odjava" type="id" />
+</resources>

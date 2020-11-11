@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent">
+
+    <ImageView
+        android:id="@+id/imgLastMinute"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:background="@color/colorSiva"
+        android:scaleType="centerCrop"
+        android:src="@drawable/pula"/>
+    <TextView
+        android:id="@+id/textViewLastMinute"
+        android:layout_width="150dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="20dp"
+        android:layout_centerHorizontal="true"
+        android:background="@color/colorProvidna"
+        android:gravity="center"
+        android:text="Naziv"
+        android:textAllCaps="false"
+        android:textColor="@color/colorDrecava"
+        android:textSize="20sp"
+        android:textStyle="normal|italic"
+        android:typeface="serif"
+        app:fontFamily="serif" />
+
+    <!-- <TextView
+        android:id="@+id/textViewLastMinute"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_centerHorizontal="true"
+        android:background="@color/colorProvidna"
+        android:gravity="center"
+        android:text="Naziv"
+        android:textAllCaps="false"
+        android:textColor="@color/colorDrecava"
+        android:textSize="20sp"
+        android:textStyle="normal|italic"
+        android:typeface="serif"
+        app:fontFamily="serif" /> -->
+
+
+</RelativeLayout>
+

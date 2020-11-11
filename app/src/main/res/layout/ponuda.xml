@@ -1,0 +1,238 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/scrollViewID2"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/ponudaslika2"
+    tools:context=".SecondFragment">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/txtNaslov"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginStart="44dp"
+            android:layout_marginLeft="44dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginEnd="44dp"
+            android:layout_marginRight="44dp"
+            android:gravity="center"
+            android:text="Ponude"
+            android:textColor="@color/colorAccent"
+            android:textSize="30sp"
+            android:textStyle="bold|italic"
+            android:typeface="serif"
+            app:fontFamily="serif" />
+
+
+        <ImageView
+            android:id="@+id/img1"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_below="@+id/txtNaslov"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_marginTop="15dp"
+            android:layout_marginStart="9dp"
+            android:layout_marginLeft="9dp"
+            android:src="@color/colorPrimary" />
+
+        <TextView
+            android:id="@+id/txt1"
+            android:layout_width="158dp"
+            android:layout_height="150dp"
+            android:layout_below="@+id/img1"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_marginStart="9dp"
+            android:layout_marginLeft="9dp"
+            android:layout_marginTop="10dp"
+            android:scrollbars="vertical"
+            android:text="Ovde ce biti prikazana ponuda 1"
+            android:textColor="@color/bela"
+            android:textStyle="italic"
+            android:typeface="normal"
+            app:fontFamily="@font/andada" />
+
+        <Button
+            android:id="@+id/btn1"
+            android:layout_width="70dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/txt1"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_marginStart="89dp"
+            android:layout_marginLeft="89dp"
+            android:layout_marginTop="10dp"
+            android:background="@color/colorPrimary"
+            android:text="Rezerviši"
+            android:textSize="12dp"
+            android:textColor="@color/bela"
+            android:textStyle="italic"
+            android:typeface="serif" />
+
+        <Button
+            android:id="@+id/btnDetalji1"
+            android:layout_width="70dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/txt1"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_marginStart="9dp"
+            android:layout_marginLeft="9dp"
+            android:layout_marginTop="10dp"
+            android:background="@color/colorPrimary"
+            android:text="Detalji"
+            android:textColor="@color/bela"
+            android:textStyle="italic"
+            android:typeface="serif" />
+
+        <ImageView
+            android:id="@+id/img2"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_below="@+id/txtNaslov"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="15dp"
+            android:layout_marginRight="9dp"
+            android:layout_marginEnd="9dp"
+            android:src="@color/colorPrimary" />
+
+        <TextView
+            android:id="@+id/txt2"
+            android:layout_width="158dp"
+            android:layout_height="150dp"
+            android:layout_below="@id/img2"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="1dp"
+            android:layout_marginRight="1dp"
+            android:scrollbars="vertical"
+            android:text="Ovde ce biti prikazana ponuda 2"
+            android:textColor="@color/bela"
+            android:textStyle="bold|italic"
+            android:typeface="serif"
+            app:fontFamily="@font/andada" />
+
+        <Button
+            android:id="@+id/btn2"
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/txt2"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="9dp"
+            android:layout_marginRight="9dp"
+            android:background="@color/colorPrimary"
+            android:text="Rezerviši"
+            android:textColor="@color/bela"
+            android:textStyle="italic"
+            android:typeface="serif" />
+
+        <ImageView
+            android:id="@+id/img3"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_below="@+id/btn1"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_marginStart="9dp"
+            android:layout_marginLeft="9dp"
+            android:layout_marginTop="20dp"
+            android:scaleType="centerInside"
+            android:src="@color/colorPrimary" />
+
+        <TextView
+            android:id="@+id/txt3"
+            android:layout_width="158dp"
+            android:layout_height="150dp"
+            android:layout_below="@+id/img3"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_marginStart="9dp"
+            android:layout_marginLeft="9dp"
+            android:layout_marginTop="10dp"
+            android:scrollbars="vertical"
+            android:text="Ovde ce biti prikazana ponuda 3"
+            android:textColor="@color/bela"
+            android:textStyle="bold|italic"
+            android:typeface="normal"
+            app:fontFamily="@font/andada" />
+
+        <Button
+            android:id="@+id/btn3"
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/txt3"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_marginStart="79dp"
+            android:layout_marginLeft="79dp"
+            android:layout_marginTop="10dp"
+            android:background="@color/colorPrimary"
+            android:text="Rezerviši"
+            android:textColor="@color/bela"
+            android:textStyle="italic"
+            android:typeface="serif" />
+
+        <ImageView
+            android:id="@+id/img4"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_below="@+id/btn2"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="9dp"
+            android:layout_marginRight="9dp"
+            android:scaleType="fitCenter"
+            android:src="@color/colorPrimary" />
+
+        <TextView
+            android:id="@+id/txt4"
+            android:layout_width="158dp"
+            android:layout_height="150dp"
+            android:layout_below="@id/img4"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="1dp"
+            android:layout_marginRight="1dp"
+            android:scrollbars="vertical"
+            android:text="Ovde ce biti prikazana ponuda 4"
+            android:textColor="@color/bela"
+            android:textStyle="bold|italic"
+            android:typeface="normal"
+            app:fontFamily="@font/andada" />
+
+        <Button
+            android:id="@+id/btn4"
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/txt4"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="9dp"
+            android:layout_marginRight="9dp"
+            android:background="@color/colorPrimary"
+            android:text="Rezerviši"
+            android:textColor="@color/bela"
+            android:textStyle="italic"
+            android:typeface="serif" />
+
+    </RelativeLayout>
+</ScrollView>

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@color/bela"
+    tools:context=".GradoviFragment"
+    android:scrollbars="vertical">
+
+    <!--<TextView
+        android:id="@+id/txtUnesi"
+        android:layout_width="fill_parent"
+        android:layout_height="28dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="5dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginBottom="5dp"
+        android:gravity="center"
+        android:text="Unesite naziv mesta za bržu pretragu"
+        android:textAlignment="center"
+        android:textColor="@color/colorAccent"
+        android:textSize="11sp"
+        android:textStyle="italic"
+        android:typeface="serif"
+        android:layout_centerHorizontal="true"
+        app:fontFamily="serif"
+        android:textAppearance="?android:attr/textAppearanceMedium"/> -->
+
+    <AutoCompleteTextView
+        android:layout_width="fill_parent"
+        android:layout_height="40dp"
+        android:id="@+id/autoCompleteTxtView"
+        android:layout_marginTop="2dp"
+        android:completionThreshold="1"
+        android:hint="Unesite naziv mesta za bržu pretragu"/>
+
+    <GridView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:id="@+id/gridViewMesta"
+        android:layout_alignParentTop="false"
+        android:layout_below="@id/autoCompleteTxtView"
+        android:verticalSpacing="2dp"
+        android:horizontalSpacing="2dp"
+        android:numColumns="2"
+        android:gravity="center"
+        android:columnWidth="90dp"
+        android:stretchMode="columnWidth">
+
+    </GridView>
+
+
+</RelativeLayout>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/textViewVrsta2"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:padding="35dp"
+        android:background="@color/bela"
+        android:gravity="center"
+        android:textColor="@color/colorDrecava"
+        android:textStyle="bold"
+        android:text="naziv"/>
+
+    <ImageView
+        android:id="@+id/imgSlikeVrsta2"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:src="@drawable/newyork"
+
+        />
+
+
+
+</android.support.constraint.ConstraintLayout>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary2">#ff66ff</color>
+    <color name="colorPrimaryDark2">#ff00ff</color>
+    <color name="bela">#fafaf9</color>
+    <color name="prozirna">#504d94ff</color>
+    <color name="colorAccent">#d81b60</color>
+    <color name="colorPrimary">#e63374</color>
+    <color name="colorPrimaryDark">#cc195b</color>
+    <color name="colorCrna">#000000</color>
+    <color name="colorDrecava">#ff0066</color>
+    <color name="colorRegistracija">#f075a2</color>
+    <color name="colorRegistracija2">#f075a2</color>
+    <color name="colorOmiljena">#ff5050</color>
+    <color name="colorPlava">#0088cc</color>
+    <color name="colorPlava2">#34cceb</color>
+    <color name="colorPlava3">#17c5e8</color>
+    <color name="colorPlava4">#15b1d1</color>
+    <color name="colorSvetloPlava">#99ddff</color>
+    <color name="colorZelena">#2eb82e</color>
+    <color name="colorSvetloSiva">#e6e6e6</color>
+    <color name="colorSiva">#4d4d4d</color>
+    <color name="colorProvidna">#b4f5f6f8</color>
+    <color name="colorProvidna2">#59f5f6f8</color>
+    <color name="colorBackground">#FFFFFFFF</color>
+    <color name="colorRegButton">#b4f5f6f8</color>
+</resources>

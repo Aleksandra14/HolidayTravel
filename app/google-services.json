@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "926580962815",
+    "firebase_url": "https://holidaytravel-df631.firebaseio.com",
+    "project_id": "holidaytravel-df631",
+    "storage_bucket": "holidaytravel-df631.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:926580962815:android:669d7412e5a09552",
+        "android_client_info": {
+          "package_name": "com.example.holidaytravel.holidaytravel"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "926580962815-btf84grk9p4mveh9q0cmvcetekfpvvj0.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.holidaytravel.holidaytravel",
+            "certificate_hash": "2f6ee5fa0032f24ca993433fb17f0088f8498182"
+          }
+        },
+        {
+          "client_id": "926580962815-d60glbop41ffenaf26vuet0o4hmiliej.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCxi-EMyDIne6PcwgP2gHKfiTJuZMoTzVY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "926580962815-d60glbop41ffenaf26vuet0o4hmiliej.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_pocetna"
+            android:icon="@drawable/pocetna"
+            android:title="Početna"/>
+        <item
+            android:id="@+id/nav_ponuda"
+            android:icon="@drawable/ponuda"
+            android:title="Ponuda"/>
+        <item
+            android:id="@+id/nav_rezervacije"
+            android:icon="@drawable/rezervacije"
+            android:title="Rezervacije"/>
+        <item
+            android:id="@+id/nav_kontakt"
+            android:icon="@drawable/kontakt"
+            android:title="Kontakt"/>
+        <item
+            android:id="@+id/nav_o_nama"
+            android:icon="@drawable/onama"
+            android:title="O nama"/>
+    </group>
+
+    <!--
+      android:icon="@drawable/ic_menu_camera"
+      android:icon="@drawable/ic_menu_gallery"
+      android:icon="@drawable/ic_menu_slideshow"
+      android:icon="@drawable/ic_menu_manage"
+
+
+         <item android:title="Communicate">
+             <menu>
+                 <item
+                         android:id="@+id/nav_share"
+                         android:icon="@drawable/ic_menu_share"
+                         android:title="Share"/>
+                 <item
+                         android:id="@+id/nav_send"
+                         android:icon="@drawable/ic_menu_send"
+                         android:title="Send"/>
+             </menu>
+         </item>
+         -->
+
+    <item android:title="">
+        <menu>
+            <item
+                android:id="@id/nav_prijava"
+                android:icon="@drawable/ic_prijava"
+                android:title="Prijava" />
+            <item
+                android:id="@id/nav_registracija"
+                android:icon="@drawable/ic_registracija"
+                android:title="Registracija" />
+            <item
+                android:id="@id/nav_odjava"
+                android:title="Odjava" />
+            <item
+                android:id="@+id/night_mode"
+                app:actionLayout="@layout/drawer_switch"
+                android:title="Night mode"
+                    />
+
+        </menu>
+    </item>
+</menu>
